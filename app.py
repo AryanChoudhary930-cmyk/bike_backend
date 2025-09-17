@@ -15,7 +15,6 @@ except Exception as e:
     model = None
 
 # --- Centralized Data Mappings ---
-# This is the single source of truth for your frontend dropdowns.
 DATA_MAPPINGS = {
     "brands": {
         'aprilia': 0, 'ather': 1, 'bajaj': 2, 'benelli': 3, 'bmw': 4, 
